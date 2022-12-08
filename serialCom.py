@@ -2,7 +2,7 @@ import serial, json
 def serialCom():
     loop=1
     ser = serial.Serial('/dev/serial0',115200,timeout=1)
-    msg=json.dumps({"direction": 0, "switch": "false", "alarm": "false"})
+    msg=json.dumps({"direction": 1, "switch": "true", "alarm": "false"})
     #print(msg)  
     #ser.write(str.encode(msg)) # write a string
     #x=ser.readline()

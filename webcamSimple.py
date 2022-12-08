@@ -1,5 +1,4 @@
 import cv2
-import base64
 import io
 import time
 from barcodeConcate import dataConcate

@@ -25,8 +25,8 @@ img_width, img_height = 224, 224
  
 #Create a bottleneck file
 top_model_weights_path = 'bottleneck_fc_model.h5'
-# loading up our datasets
-
+#loading up our datasets
+#bottlenecks are weights
 train_data_dir = '/Users/ioannapapanikolaou/Documents/Year3/EPS/prep_dataset/train/'
 validation_data_dir = '/Users/ioannapapanikolaou/Documents/Year3/EPS/prep_dataset/val/'
 test_data_dir = '/Users/ioannapapanikolaou/Documents/Year3/EPS/prep_dataset/test/'
