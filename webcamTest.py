@@ -1,5 +1,4 @@
 import cv2
-import base64
 import io
 from pyzbar.pyzbar import decode
 

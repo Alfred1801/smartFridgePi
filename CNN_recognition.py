@@ -34,7 +34,7 @@ def read_image(file_path):
     image /= 255. 
     return image
     
-def test_single_image(path):
+def test_single_image(path, model):
     reconModel = keras.models.load_model("my_model.h5")
     reconModel.load_weights("bottleneck_fc_model.h5")
     vgg16 = applications.VGG16(include_top=False, weights='imagenet')

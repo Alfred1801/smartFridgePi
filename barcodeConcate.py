@@ -1,4 +1,5 @@
-def dataConcate(barcodeVal,barcodeType, direction):
-    totalData=str(barcodeVal)+','+str(barcodeType)+','+str(direction)
+def dataConcate(barcodeVal,barcodeType):
+    #totalData=str(barcodeVal)+','+str(barcodeType)
     #print(totalData)
+    totalData=str(barcodeVal)
     return totalData 
