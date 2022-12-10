@@ -111,4 +111,4 @@ def test_single_image(path, model):
     class_predicted = np.argmax(reconModel.predict(bt_prediction), axis=-1)
     inv_map = {v: k for k, v in class_dictionary.items()} 
     print("ID: {}, Label: {}".format(class_predicted[0],  inv_map[class_predicted[0]])) 
-    return load_img(path)
+    return inv_map[class_predicted[0]]

@@ -1,7 +1,7 @@
 import cv2
 import io
 import time
-from barcodeConcate import dataConcate
+from dataConcate import dataConcate
 from pyzbar.pyzbar import decode
 
 #filename="64barcode.txt"

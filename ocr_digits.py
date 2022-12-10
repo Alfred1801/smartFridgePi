@@ -29,4 +29,5 @@ for imgval in range(5) :
     #text = pytesseract.image_to_string(rgb, config=options)
     #text = pytesseract.image_to_boxes(rgb, config=options)
     print(text)
+    return text
 
