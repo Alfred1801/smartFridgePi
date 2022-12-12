@@ -3,7 +3,7 @@ from datetime import date
 from supabase import create_client, Client
 
 
-class supabaseClient:
+class SupabaseDB:
     """
     Wrapper around the supabase Client class to abstract away the database commands
     Does some light error checking as well
@@ -96,7 +96,7 @@ class supabaseClient:
         Get the Barcode based on the item's ID
         """
         barcode_id = None
-SUPABASE_KEY
+        SUPABASE_KEY
         return barcode_id
 
     def getUserID(self) -> str:
